@@ -1,0 +1,75 @@
+.FavouritesPage {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 15px 48px 15px;
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .bookmark {
+    display: flex;
+    flex-direction: row;
+    width: 331px;
+    margin-bottom:10px;
+
+    a {
+      width: 100%;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    h4 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      color: grey;
+      font-size: 13px;
+    }
+
+    .infos {
+      display: flex;
+      flex-direction: column;
+      margin-left: -61px;
+
+      .rating {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin-top: -17px;
+      }
+    }
+
+    .price {
+      display: flex;
+      align-items: baseline;
+      margin-top: -14px;
+
+      h5 {
+        margin-top: 0;
+        font-size: 14px;
+      }
+    }
+
+    .heart {
+      display: inline-block;
+      position: absolute;
+      width: 10%;
+      color: white;
+      font-size: 25px;
+      margin-top: 6px;
+      margin-left: -31px;
+    }
+  }
+
+  img {
+    width: 70%;
+    border-radius: 12px;
+    box-shadow: 4px 3px 4px 0 #0000008a;
+  }
+}
+
+
+
+

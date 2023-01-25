@@ -1,0 +1,90 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 50px;
+
+
+  .current, .past {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .booking {
+      width: 49%;
+
+      .heart{
+        display:inline-block;
+        position:absolute;
+        width:130px;
+        color:white;
+        font-size: 25px;
+        margin-top:-120px;
+        margin-left: 94px;
+      }
+      .photo {
+        background-size: cover;
+        border-radius: 12px;
+        width: 177px;
+        height: 124px;
+        box-shadow: 4px 3px 4px 0 #0000008a;
+      }
+    }
+
+    img {
+      display: flex;
+      width: 44%;
+      border-radius: 12px;
+      position: relative;
+    }
+
+    .info {
+      display: flex;
+      position: relative;
+      font-size: 10px;
+      font-weight: bolder;
+
+      .location-host {
+        width: 53%;
+
+        h4 {
+          color: grey;
+        }
+
+        h5 {
+          font-weight: bold;
+        }
+      }
+
+      .rating {
+        display: flex;
+        flex-direction: row-reverse;
+        flex: 1;
+        align-items: center;
+        height: 38px;
+      }
+    }
+
+    .text {
+      height: 10%;
+
+      h1 {
+        margin-bottom: -15px;
+      }
+
+      h2 {
+        font-weight: normal;
+        color: grey;
+      }
+
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+
+
+

@@ -1,0 +1,66 @@
+.rental {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .rating {
+    display: flex;
+    flex: 1;
+    padding-top: 4px;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+
+  .heart {
+    display: inline-block;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 142px;
+    font-size: 20px;
+    color: white;
+  }
+
+  .info {
+    display: flex;
+    position: relative;
+    font-size: 12px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+    width: 98%;
+    height: 15%;
+
+    .location-host {
+      width: 80%;
+      margin: 0;
+
+    }
+
+    .price {
+      display: flex;
+    }
+
+    p {
+      padding-top: 3px;
+      padding-left: 3px;
+    }
+  }
+
+  h4 {
+    font-weight: normal;
+    color: grey;
+  }
+
+  .homes-img {
+    display: flex;
+
+    .photo {
+      background-size: cover;
+      box-shadow: 1px 3px 4px 0 #0000008a;
+      border-radius:12px;
+      width: 170px;
+      height: 124px;
+    }
+  }
+}
+

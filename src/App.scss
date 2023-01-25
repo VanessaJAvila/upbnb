@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.App {
+  font-family: 'Roboto', sans-serif;
+}
+
+#light {
+  background-color: white;
+}
+
+#dark {
+  background-color: #36363d;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+#dark .heart {
+  color: #004f63;
+}
+
+#dark .s-icon {
+  color: #004f63;
+}
+
+#dark .navegacao .search a {
+  background-color: #004f63;
+  color: whitesmoke;
+
+  &.active, &:hover {
+    background-color: #4c5456;
+    color: white;
+  }
+}
+
+#dark .navegacao .heart-icon a {
+  background-color: #004f63;
+  color: whitesmoke;
+
+  &.active, &:hover {
+    background-color: #4c5456;
+    color: white;
+  }
+}
+

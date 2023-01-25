@@ -1,0 +1,45 @@
+.navegacao {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  border-top: 2px solid #004f63;
+
+  .search, .heart-icon {
+
+    display: flex;
+    flex: 1;
+    align-items: center;
+    color: #004f63;
+
+    a {
+      flex: 1;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 45px;
+      font-size: 25px;
+
+      &.active, &:hover {
+        background-color: #004f63;
+        color: white;
+      }
+    }
+  }
+
+  a {
+    color: #004f63;
+  }
+
+  .User-Profile {
+    position: absolute;
+    left: calc(50% - 42px);
+    bottom: 0;
+    display: flex;
+
+    img {
+      height: 70px;
+    }
+  }
+}
